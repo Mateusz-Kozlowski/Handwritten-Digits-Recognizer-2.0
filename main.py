@@ -142,24 +142,24 @@ class InputField:
 
 	def predict(self):
 		self.prePredictedCanvas = cut_from_the_window(self.xPos, self.yPos, self.width, self.height)
-		canvas_file_path = 'Imgs/pre_predicted_canvas.png'
+		canvas_file_path = 'Canvas images/pre_predicted_canvas.png'
 		pg.image.save(self.prePredictedCanvas, canvas_file_path)
 
 		self.digits.clear()
 		self.labelsSortedByX.clear()
 
-		img2find_contours = cv.imread(canvas_file_path)
-		img2find_contours = cv.cvtColor(img2find_contours, cv.COLOR_BGR2GRAY)
-		ret, th = cv.threshold(img2find_contours, 0, 255, cv.THRESH_BINARY_INV + cv.THRESH_OTSU)
+		image2find_contours = cv.imread(canvas_file_path)
+		image2find_contours = cv.cvtColor(image2find_contours, cv.COLOR_BGR2GRAY)
+		ret, th = cv.threshold(image2find_contours, 0, 255, cv.THRESH_BINARY_INV + cv.THRESH_OTSU)
 		contours = cv.findContours(th, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)[0]
 		index = -1
 		for cnt in contours:
 			index += 1
 			x, y, w, h = cv.boundingRect(cnt)
-			the_digit_img = pg.Surface((w, h))
-			the_digit_img.blit(window, (0, 0), (x + self.xPos, y + self.yPos, w, h))
-			pg.image.save(the_digit_img, 'Imgs/' + str(index) + ' contour.png')
-			the_digit_img = cv.imread('Imgs/' + str(index) + ' contour.png')
+			the_digit_image = pg.Surface((w, h))
+			the_digit_image.blit(window, (0, 0), (x + self.xPos, y + self.yPos, w, h))
+			pg.image.save(the_digit_image, 'Canvas images/' + str(index) + ' contour.png')
+			the_digit_image = cv.imread('Canvas images/' + str(index) + ' contour.png')
 
 			top_padding = 0
 			bottom_padding = 0
@@ -172,13 +172,13 @@ class InputField:
 				top_padding = (w - h) // 2
 				bottom_padding = top_padding
 			a = max(w, h)
-			the_digit_img = cv.copyMakeBorder(
-				the_digit_img,
+			the_digit_image = cv.copyMakeBorder(
+				the_digit_image,
 				top_padding, bottom_padding, left_padding, right_padding,
 				cv.BORDER_CONSTANT, value=WHITE
 			)
-			the_digit_img = cv.copyMakeBorder(
-				the_digit_img,
+			the_digit_image = cv.copyMakeBorder(
+				the_digit_image,
 				a // 4, a // 4, a // 4, a // 4,
 				cv.BORDER_CONSTANT, value=WHITE
 			)
@@ -188,13 +188,13 @@ class InputField:
 			pg.draw.rect(window, BLUE, (x + self.xPos, y + self.yPos, 1, h))
 			pg.draw.rect(window, BLUE, (x + self.xPos + w, y + self.yPos, 1, h))
 
-			the_digit_img = cv.cvtColor(the_digit_img, cv.COLOR_BGR2GRAY)
-			the_digit_img = cv.bitwise_not(the_digit_img)
-			the_digit_img = cv.resize(the_digit_img, (28, 28), interpolation=cv.INTER_AREA)
-			the_digit_img = the_digit_img.reshape(1, 28, 28, 1)
-			the_digit_img = the_digit_img / 255.0
+			the_digit_image = cv.cvtColor(the_digit_image, cv.COLOR_BGR2GRAY)
+			the_digit_image = cv.bitwise_not(the_digit_image)
+			the_digit_image = cv.resize(the_digit_image, (28, 28), interpolation=cv.INTER_AREA)
+			the_digit_image = the_digit_image.reshape(1, 28, 28, 1)
+			the_digit_image = the_digit_image / 255.0
 
-			predictions = model.predict([the_digit_img])[0]
+			predictions = model.predict([the_digit_image])[0]
 
 			self.digits.append(Digit())
 			self.digits[-1].set_x_pos(x)

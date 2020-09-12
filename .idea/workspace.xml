@@ -19,8 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff1c36cb-5018-49b6-9c2c-295667e633ae" name="Default Changelist" comment="Moving screenshot from the Imgs folder to the Screenshots folder">
-      <change beforePath="$PROJECT_DIR$/Imgs/2^31.png" beforeDir="false" />
+    <list default="true" id="ff1c36cb-5018-49b6-9c2c-295667e633ae" name="Default Changelist" comment="Cutting a screenshot">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/0 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/1 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/10 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/11 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/12 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/13 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/14 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/2 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/3 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/4 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/5 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/6 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/7 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/8 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/9 contour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imgs/pre_predicted_canvas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599948023902</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cutting a screenshot">
+      <created>1599948159501</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599948159501</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cutting a screenshot">
+      <created>1599948166355</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599948166355</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,36 +200,37 @@
     <MESSAGE value="Another commit" />
     <MESSAGE value="Fixing interpreter and editing some images" />
     <MESSAGE value="Moving screenshot from the Imgs folder to the Screenshots folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving screenshot from the Imgs folder to the Screenshots folder" />
+    <MESSAGE value="Cutting a screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cutting a screenshot" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="63" width="1089" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599947713176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="63" width="1089" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599947713176" />
-    <state width="1515" height="666" key="GridCell.Tab.0.bottom" timestamp="1599947818694">
+    <state width="1515" height="666" key="GridCell.Tab.0.bottom" timestamp="1599948788447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599947818694" />
-    <state width="1515" height="666" key="GridCell.Tab.0.center" timestamp="1599947818694">
+    <state width="1515" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599948788447" />
+    <state width="1515" height="666" key="GridCell.Tab.0.center" timestamp="1599948788447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599947818694" />
-    <state width="1515" height="666" key="GridCell.Tab.0.left" timestamp="1599947818694">
+    <state width="1515" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599948788447" />
+    <state width="1515" height="666" key="GridCell.Tab.0.left" timestamp="1599948788447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599947818694" />
-    <state width="1515" height="666" key="GridCell.Tab.0.right" timestamp="1599947818694">
+    <state width="1515" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599948788447" />
+    <state width="1515" height="666" key="GridCell.Tab.0.right" timestamp="1599948788447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599947818694" />
+    <state width="1515" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599948788447" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1599947457136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599947457136" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599948028257">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599948171344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599948028257" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599948171344" />
   </component>
 </project>

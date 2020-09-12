@@ -18,10 +18,10 @@ Python 3.8 with following modules installed:
 * Matplotlib
 
 # 2. Project Description:
-
+![Sth](Imgs//2^31.png)
 
 # 3. How to install:
 
 
 # 4. Tips:
-![alt text](Imgs//digits.png)
+![Sth](Imgs//digits.png)

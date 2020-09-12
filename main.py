@@ -412,6 +412,18 @@ def draw(buttons, input_field, show_labels):
 	pg.display.update()
 
 
+def remove_contours_from_canvas_images_folder():
+	folder_path = 'Canvas images/'
+
+	index = 0
+	file_path = folder_path + str(index) + ' contour.png'
+
+	while os.path.isfile(file_path):
+		os.remove(file_path)
+		index += 1
+		file_path = folder_path + str(index) + ' contour.png'
+
+
 def main():
 	buttons = init_buttons()
 	input_field = InputField(LEFT_MARGIN, INPUT_TOP, INPUT_WIDTH, INPUT_HEIGHT)
@@ -462,6 +474,7 @@ def main():
 
 		draw(buttons, input_field, show_labels)
 
+	remove_contours_from_canvas_images_folder()
 	pg.quit()
 
 

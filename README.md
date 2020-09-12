@@ -24,4 +24,4 @@ Python 3.8 with following modules installed:
 
 
 # 4. Tips:
-![alt text](http://url/to/img.png)
+![alt text](Imgs//digits/png)

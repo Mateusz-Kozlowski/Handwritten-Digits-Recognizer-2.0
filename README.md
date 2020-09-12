@@ -2,7 +2,7 @@
 
 Actually Mousewritten Numbers Recognizer using CNN (Convolutional Neural Networks) in Python with Keras
 
-# Code Requirements
+# Code Requirements:
 Python 3.8 with following modules installed:
 1) Pygame 1.9
 1) NumPy

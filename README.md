@@ -6,7 +6,7 @@ This file includes the following chapters:
 1. Code Requirements
 2. Project description
 3. How to install
-4. How to use
+4. Tips
 
 # 1. Code Requirements:
 Python 3.8 with following modules installed:
@@ -23,4 +23,4 @@ Python 3.8 with following modules installed:
 # 3. How to install:
 
 
-# 4. How to use:
+# 4. Tips:

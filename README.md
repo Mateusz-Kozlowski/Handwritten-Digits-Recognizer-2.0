@@ -20,7 +20,7 @@ Python 3.8 with following modules installed:
 # 2. Project Description:
 
 
-# 3. How to install
+# 3. How to install:
 
 
-# 4. How to use
+# 4. How to use:

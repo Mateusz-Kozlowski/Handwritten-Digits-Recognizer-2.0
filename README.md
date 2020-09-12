@@ -12,7 +12,7 @@ This file includes the following chapters:
 Python 3.8 with following modules installed:
 * Pygame 1.9
 * NumPy
-* TensorFlow
+* TensorFlow 2.3
 * Keras
 * OpenCV 2 for Python
 * Matplotlib

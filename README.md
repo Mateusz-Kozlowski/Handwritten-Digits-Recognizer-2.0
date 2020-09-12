@@ -14,7 +14,7 @@ Python 3.8 with following modules installed:
 * NumPy
 * TensorFlow 2.3
 * Keras
-* OpenCV 2 for Python
+* OpenCV 4.4 for Python
 * Matplotlib
 
 # 2. Project Description:

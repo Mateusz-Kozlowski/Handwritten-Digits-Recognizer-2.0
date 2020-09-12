@@ -344,7 +344,7 @@ def draw_decimal_labels(decimal_number, x_center, y_center, char_size):
 	text = font.render(string, 1, BLACK)
 	font = pg.font.SysFont('arial', char_size * min(WIDTH - 2 * LEFT_MARGIN, text.get_width()) // text.get_width())
 	text = font.render(string, 1, BLACK)
-	window.blit(text, (x_center - text.get_width() // 2, y_center - text.get_height() // 2))
+	window.blit(text, (int(x_center - text.get_width() // 2), int(y_center - text.get_height() // 2)))
 
 
 def draw_binary_labels(decimal_number, x_center, y_center, char_size):
@@ -354,7 +354,7 @@ def draw_binary_labels(decimal_number, x_center, y_center, char_size):
 	text = font.render(string, 1, BLACK)
 	font = pg.font.SysFont('arial', char_size * min(WIDTH - 2 * LEFT_MARGIN, text.get_width()) // text.get_width())
 	text = font.render(string, 1, BLACK)
-	window.blit(text, (x_center - text.get_width() // 2, y_center - text.get_height() // 2))
+	window.blit(text, (int(x_center - text.get_width() // 2), int(y_center - text.get_height() // 2)))
 
 
 def draw_hexadecimal_labels(decimal_number, x_center, y_center, char_size):
@@ -373,7 +373,7 @@ def draw_hexadecimal_labels(decimal_number, x_center, y_center, char_size):
 	text = font.render(string, 1, BLACK)
 	font = pg.font.SysFont('arial', char_size * min(WIDTH - 2 * LEFT_MARGIN, text.get_width()) // text.get_width())
 	text = font.render(string, 1, BLACK)
-	window.blit(text, (x_center - text.get_width() // 2, y_center - text.get_height() // 2))
+	window.blit(text, (int(x_center - text.get_width() // 2), int(y_center - text.get_height() // 2)))
 
 
 def draw_english_labels(decimal_number, x_center, y_center, char_size):
@@ -395,8 +395,8 @@ def draw(buttons, input_field, show_labels):
 			window.blit(
 				text,
 				(
-					digits[i].xPos + LEFT_MARGIN,
-					digits[i].yPos - 1.25 * text.get_height() + INPUT_TOP
+					int(digits[i].xPos + LEFT_MARGIN),
+					int(digits[i].yPos - 1.25 * text.get_height() + INPUT_TOP)
 				)
 			)
 

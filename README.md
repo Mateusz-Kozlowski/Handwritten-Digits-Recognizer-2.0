@@ -4,10 +4,11 @@ Actually Mousewritten Numbers Recognizer using CNN (Convolutional Neural Network
 
 # Code Requirements
 Python 3.8 with following modules installed:
-1) numpy
-2) seaborn
-3) tensorflow
-4) keras
-5) opencv2
+1) Pygame 1.9
+1) NumPy
+3) TensorFlow
+4) Keras
+5) OpenCV 2 for Python
+6) Matplotlib
 
 # Description:

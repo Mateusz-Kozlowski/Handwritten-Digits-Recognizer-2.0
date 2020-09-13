@@ -36,6 +36,21 @@ If you're familiar with git you can clone the repo. Otherwise you can simply dow
 Then you need to make sure your device meets the requirements in chapter 1 (appropriate libraries installed).
 You can install them with pip from the command line.
 
+To run the program using command line. Navigate to the directory, where the project is located and type python main.py
+
+![Sth](Screenshots//command line1.png)
+
+Wait a few second...
+And you should see sth like that:
+
+![Sth](Screenshots//start.png)
+
+In the command line there may be some errors and warnings, but if you can use program and numbers are predicted correctly, then you can just ignore the erros.
+
+![Sth](Screenshots//command line2.png)
+
+If program doesn't work at all, read carefully the errors and try to find rezolution on Stack Overflow or elsewhere. You should necessarily make an issue in the repo too.
+
 # 4. Tips:
 Digits recognition is not perfect. This is mainly due to the fact that the training data for the neural network is a popular set of MNIST handwritten digits. In our program, however, numbers are written with the mouse, so it can be difficult to keep the characters in the right shape. Sample examples of each digit are provided below. Pay special attention to 1, 6, 7 and 9.
 

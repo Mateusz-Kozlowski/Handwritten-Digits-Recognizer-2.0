@@ -36,7 +36,7 @@ If you're familiar with git you can clone the repo. Otherwise you can simply dow
 Then you need to make sure your device meets the requirements in chapter 1 (appropriate libraries installed).
 You can install them with pip from the command line.
 
-To run the program using command line. Navigate to the directory, where the project is located and type python main.py
+Finally run the program using command line. Navigate to the directory, where the project is located and type python main.py
 
 ![Sth](Screenshots//commandLine1.png)
 

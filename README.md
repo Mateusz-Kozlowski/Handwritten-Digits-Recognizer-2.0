@@ -38,7 +38,7 @@ You can install them with pip from the command line.
 
 To run the program using command line. Navigate to the directory, where the project is located and type python main.py
 
-![Sth](Screenshots//start.png)
+![Sth](Screenshots//command line1.png)
 
 Wait a few second...
 And you should see sth like that:

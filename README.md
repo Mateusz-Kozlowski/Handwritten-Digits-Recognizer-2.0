@@ -29,7 +29,7 @@ Finally, the results are combined into numbers that are shown in the decimal, bi
 ![Sth](Screenshots//2351.png)
 
 # 3. How to install:
-If you're familiar with git you can clone the repo. Otherwise you can simply download whole project as compressed folder.
+If you're familiar with git you can clone the repo. Otherwise you can simply download whole project as a compressed folder.
 
 ![Sth](Screenshots//download.png)
 

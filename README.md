@@ -38,7 +38,7 @@ You can install them with pip from the command line.
 
 To run the program using command line. Navigate to the directory, where the project is located and type python main.py
 
-![Sth](Screenshots//command line1.png)
+![Sth](Screenshots//commandLine1.png)
 
 Wait a few second...
 And you should see sth like that:
@@ -47,7 +47,7 @@ And you should see sth like that:
 
 In the command line there may be some errors and warnings, but if you can use program and numbers are predicted correctly, then you can just ignore the erros.
 
-![Sth](Screenshots//command line2.png)
+![Sth](Screenshots//commandLine2.png)
 
 If program doesn't work at all, read carefully the errors and try to find rezolution on Stack Overflow or elsewhere. You should necessarily make an issue in the repo too.
 

@@ -24,34 +24,34 @@ First, the tools from the OpenCV library find contours that can be digits.
 Later these contours are converted into inputs for the neural network, which tries to recognize the digits labels.
 Finally, the results are combined into numbers that are shown in the decimal, binary, and hexadecimal system.
 
-![Sth](Screenshots//2^31.png)
-![Sth](Screenshots//16.png)
-![Sth](Screenshots//2351.png)
+![2^31](Screenshots//2^31.png)
+![16](Screenshots//16.png)
+![2351](Screenshots//2351.png)
 
 # 3. How to install:
 If you're familiar with git you can clone the repo. Otherwise you can simply download whole project as a compressed folder.
 
-![Sth](Screenshots//download.png)
+![Screenshots](Screenshots//download.png)
 
 Then you need to make sure your device meets the requirements in chapter 1 (appropriate libraries installed).
 You can install them with pip from the command line.
 
 Finally run the program using command line. Navigate to the directory, where the project is located and type python main.py
 
-![Sth](Screenshots//commandLine1.png)
+![running](Screenshots//commandLine1.png)
 
 Wait a few second...
 And you should see sth like that:
 
-![Sth](Screenshots//start.png)
+![start](Screenshots//start.png)
 
 In the command line there may be some errors and warnings, but if you can use program and numbers are predicted correctly, then you can just ignore the erros.
 
-![Sth](Screenshots//commandLine2.png)
+![errors](Screenshots//commandLine2.png)
 
 If program doesn't work at all, read carefully the errors and try to find rezolution on Stack Overflow or elsewhere. You should necessarily make an issue in the repo too.
 
 # 4. Tips:
 Digits recognition is not perfect. This is mainly due to the fact that the training data for the neural network is a popular set of MNIST handwritten digits. In our program, however, numbers are written with the mouse, so it can be difficult to keep the characters in the right shape. Sample examples of each digit are provided below. Pay special attention to 1, 6, 7 and 9.
 
-![Sth](Screenshots//digits.png)
+![sample digits](Screenshots//digits.png)

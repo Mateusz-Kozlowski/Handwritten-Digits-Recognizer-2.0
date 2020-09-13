@@ -29,9 +29,14 @@ Finally, the results are combined into numbers that are shown in the decimal, bi
 ![Sth](Screenshots//2351.png)
 
 # 3. How to install:
-If you're familiar with git you can clone the repo. Otherwise you can simply download whole project as compressed folder.
+If you're familiar with git you can clone the repo. Otherwise you can simply download whole project as a compressed folder.
+
+![Sth](Screenshots//download.png)
+
+Then you need to make sure your device meets the requirements in chapter 1 (appropriate libraries installed).
+You can install them with pip from the command line.
 
 # 4. Tips:
-Digit recognition is not perfect. This is mainly due to the fact that the training data for the neural network is a popular set of MNIST handwritten digits. In our program, however, numbers are written with the mouse, so it can be difficult to keep the characters in the right shape. Sample examples of each digit are provided below. Pay special attention to 1, 6, 7 and 9.
+Digits recognition is not perfect. This is mainly due to the fact that the training data for the neural network is a popular set of MNIST handwritten digits. In our program, however, numbers are written with the mouse, so it can be difficult to keep the characters in the right shape. Sample examples of each digit are provided below. Pay special attention to 1, 6, 7 and 9.
 
 ![Sth](Screenshots//digits.png)

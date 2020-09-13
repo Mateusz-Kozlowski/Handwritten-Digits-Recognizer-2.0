@@ -23,6 +23,7 @@ After the drawing is finished, the recognition process starts automatically.
 First, the tools from the OpenCV library find contours that can be digits.
 Later these contours are converted into inputs for the neural network, which tries to recognize the digits labels.
 Finally, the results are combined into numbers that are shown in the decimal, binary, and hexadecimal system.
+
 ![Sth](Screenshots//2^31.png)
 ![Sth](Screenshots//16.png)
 ![Sth](Screenshots//2351.png)

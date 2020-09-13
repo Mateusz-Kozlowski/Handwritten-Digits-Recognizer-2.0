@@ -20,6 +20,7 @@ Python 3.8 with following modules installed:
 # 2. Project Description:
 ![Sth](Screenshots//2^31.png)
 ![Sth](Screenshots//16.png)
+![Sth](Screenshots//2351.png)
 
 # 3. How to install:
 

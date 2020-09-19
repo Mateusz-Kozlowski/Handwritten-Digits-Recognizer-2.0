@@ -28,6 +28,8 @@ Finally, the results are combined into numbers that are shown in the decimal, bi
 ![16](Screenshots//16.png)
 ![2351](Screenshots//2351.png)
 
+-> [Link to a video showing how the program exactly works](https://drive.google.com/file/d/1hSDKI61Yxf8yH8wNy6vLrCUpFmyFXZ5H/view?usp=sharing) <-
+
 # 3. How to install:
 If you're familiar with git you can clone the repo. Otherwise you can simply download whole project as a compressed folder.
 

@@ -56,4 +56,4 @@ If program doesn't work at all, read carefully the errors and try to find rezolu
 # 4. Tips:
 Digits recognition is not perfect. This is mainly due to the fact that the training data for the neural network is a popular set of MNIST handwritten digits. In our program, however, numbers are written with the mouse, so it can be difficult to keep the characters in the right shape. Sample examples of each digit are provided below. Pay special attention to 1, 4, 6, 7 and 9.
 
-![digits samples](Screenshots//digits.png)
+![digits samples](Screenshots//digits.png) 

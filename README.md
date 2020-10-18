@@ -26,7 +26,7 @@ First, the tools from the OpenCV library find contours that can be digits.
 Later these contours are converted into inputs for the neural network, which tries to recognize the digits labels.
 Finally, the results are combined into numbers that are shown in the decimal, binary, and hexadecimal system.
 
-The model was trained using a code from the "cnn train.py" file. You can use it and train the model on your own. To quickly test results of the learning process run the cz"cnn test.py" file. If you are satisfied with the effectiveness, run the "main.py" file.
+The model was trained using a code from the "cnn train.py" file. You can use it and train the model on your own. To quickly test results of the learning process run the "cnn test.py" file. If you are satisfied with the effectiveness, run the "main.py" file.
 
 ![2^31](Screenshots//2^31.png)
 ![16](Screenshots//16.png)

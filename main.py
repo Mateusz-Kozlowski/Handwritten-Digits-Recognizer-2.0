@@ -1,6 +1,6 @@
-import pygame as pg
-import tensorflow as tf
 import numpy as np
+import tensorflow as tf
+import pygame as pg
 import os
 import cv2 as cv
 

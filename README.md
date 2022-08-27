@@ -1,3 +1,5 @@
+![2^31](Screenshots//2^31.png)
+
 -> [LINK TO A VIDEO SHOWING HOW THE PROGRAM EXACTLY WORKS](https://youtu.be/EPIkmzWh2ZM) <-
 
 # Handwritten-Digits-Recognizer-2.0
